@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ร้านก๋วยเตี๋ยวอร่อย</title>
+
+<style>
+
+body{
+font-family: Arial;
+margin:0;
+background:#fff8f0;
+scroll-behavior:smooth;
+}
+
+header{
+background:#5d4037;
+color:white;
+padding:25px;
+text-align:center;
+}
+
+.logo{
+font-size:40px;
+font-weight:bold;
+}
+
+nav{
+background:#ff7043;
+padding:12px;
+text-align:center;
+}
+
+nav a{
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+color:white;
+font-size:18px;
+}
+
+nav a:hover{
+color:#ffe0b2;
+}
+
+.section{
+padding:50px;
+text-align:center;
+}
+
+.menu-container{
+display:flex;
+justify-content:center;
+gap:25px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+width:230px;
+border-radius:12px;
+box-shadow:0 5px 12px rgba(0,0,0,0.2);
+padding:15px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+}
+
+.price{
+color:#d84315;
+font-weight:bold;
+font-size:18px;
+}
+
+button{
+background:#5d4037;
+color:white;
+border:none;
+padding:10px 15px;
+border-radius:6px;
+cursor:pointer;
+margin-top:10px;
+}
+
+button:hover{
+background:#3e2723;
+}
+
+footer{
+background:#5d4037;
+color:white;
+text-align:center;
+padding:15px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<div class="logo">🍜 ร้านก๋วยเตี๋ยวอร่อย</div>
+<p>น้ำซุปเข้มข้น สไตล์โฮมเมด</p>
+</header>
+
+<nav>
+<a href="#home">หน้าแรก</a>
+<a href="#menu">เมนู</a>
+<a href="#about">เกี่ยวกับร้าน</a>
+<a href="#contact">ติดต่อ</a>
+</nav>
+
+<section id="home" class="section">
+<h2>ยินดีต้อนรับ</h2>
+<p>ก๋วยเตี๋ยวสูตรพิเศษ น้ำซุปหอมเข้มข้น เสิร์ฟร้อน ๆ ทุกวัน</p>
+</section>
+
+<section id="menu" class="section">
+<h2>เมนูแนะนำ</h2>
+
+<div class="menu-container">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d">
+<h3>ก๋วยเตี๋ยวหมูน้ำใส</h3>
+<p class="price">50 บาท</p>
+<button onclick="alert('สั่งแล้ว!')">สั่งอาหาร</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1559847844-5315695dadae">
+<h3>ก๋วยเตี๋ยวต้มยำ</h3>
+<p class="price">55 บาท</p>
+<button onclick="alert('สั่งแล้ว!')">สั่งอาหาร</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1617196034183-421b4917c92d">
+<h3>บะหมี่แห้ง</h3>
+<p class="price">60 บาท</p>
+<button onclick="alert('สั่งแล้ว!')">สั่งอาหาร</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43">
+<h3>เย็นตาโฟ</h3>
+<p class="price">60 บาท</p>
+<button onclick="alert('สั่งแล้ว!')">สั่งอาหาร</button>
+</div>
+
+</div>
+
+</section>
+
+<section id="about" class="section">
+<h2>เกี่ยวกับร้าน</h2>
+<p>ร้านก๋วยเตี๋ยวโฮมเมด รสชาติกลมกล่อม เปิดบริการมากว่า 10 ปี</p>
+</section>
+
+<section id="contact" class="section">
+<h2>ติดต่อร้าน</h2>
+<p>📍 หาดใหญ่ จังหวัดสงขลา</p>
+<p>📞 08X-XXX-XXXX</p>
+<p>🕘 เปิด 08:00 - 18:00</p>
+</section>
+
+<footer>
+<p>© 2026 ร้านก๋วยเตี๋ยวอร่อย</p>
+</footer>
+
+</body>
+</html>
